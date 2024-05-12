@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive App Page</title>
+    <link rel="stylesheet" href="chat.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inika|Fredoka+One&display=swap">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="Arrow%202.png" class="arrow" onclick="goBack()"/>
+        <button class="btn-me">ME</button>
+    </div>
+
+    <div class="conversation">
+        <div class="message">
+            <img class="icon" src="Studio-Project%202%20(1).png" alt="User Icon">
+            <p class="text">Hello, how can I help you?</p>
+        </div>
+        <div class="message received">
+            <button class="btn-me icon2">ME</button>
+            <p class="text">I'm looking for some help.</p>
+
+        </div>
+        <!-- More conversation messages can be added here -->
+    </div>
+    <div class="consult">
+        <img src="Group%2020%20(1).png" class="doc" onclick="window.location.href='file:///android_asset/Consult A Doctor/doc.html';" />
+    </div>
+    <div class="type-bar">
+        <input type="text" placeholder="Type something">
+        <button class="send-button">&#10148;</button>
+    </div>
+</div>
+<script>
+    function goBack() {
+        window. history. back();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive App Page</title>
+    <link rel="stylesheet" href="diary.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="Arrow%202.png" class="arrow" onclick="goBack()"/>
+        <button class="btn-me">ME</button>
+    </div>
+    <div class="diary_cont">
+        <img src="Premium_Vector___Womans_hands_writing_plan_in_notebook_diary_or_journal_to_do_list_personal_plans_goals-removebg-preview%201%20(1).png" alt="Image" class="diary" />
+    </div>
+    <div class="text1">
+        <p>Overwhelmed with your emotions? <br>
+            We are here to listen you :)</p>
+    </div>
+    <div class="text">
+        <p class="prev">Previous</p>
+        <p class="curr">Current</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <img src="Group%2017%20(1).png" alt="pencil icon">
+            <h2>Write your story</h2>
+            <div class="divider"></div>
+            <textarea class="textarea" rows="12" placeholder="Enter your text here"></textarea>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="button cancel">Cancel</button>
+        <button class="button save">Save</button>
+    </div>
+</div>
+<script>
+    function goBack() {
+        window. history. back();
+    }
+</script>
+</body>
+</html>

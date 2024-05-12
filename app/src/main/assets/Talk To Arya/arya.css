@@ -1,0 +1,102 @@
+@font-face {
+  font-family: fredoka;
+  font-weight: semibold;
+  src: url("file:///android_res/font/fredoka.ttf");
+}
+body{
+    background: #040458;
+    margin: 0;
+}
+.header{
+    display:flex;
+flex-shrink: 1;
+margin-bottom: 5%;
+width: 100%;
+height: auto;
+z-index: 1;
+justify-content: space-between;
+align-items: center;
+margin-top: 5%;
+position: relative;
+z-index: 2;
+}
+.arrow{
+    margin-left: 5%;
+}
+
+.btn-me {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(4, 4, 88, 1);
+  border: none;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  font-family: 'Inika', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 46px;
+  text-align: center;
+  margin-right: 5%;
+}
+.sun{
+    width: 100%;
+height: auto;
+flex-shrink: 0;
+top:50px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-shrink:1;
+/* margin-top:10%; */
+}
+
+.h1{
+    width: auto;
+    height: auto;
+    text-align: center;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    font-family: fredoka;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight:600;
+    line-height: normal;
+}
+.h3{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: fredoka;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.talk button{
+    border-radius: 1.875rem;
+    background-color: #FFFFFF;
+    color: #040458;
+    /* width: auto;
+    height: auto; */
+    flex-shrink: 0;
+    /* text-align: center; */
+    font-family: Fredoka;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+
+}
+.talk{
+    height: auto;
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}

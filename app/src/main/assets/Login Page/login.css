@@ -1,0 +1,149 @@
+@font-face {
+  font-family: fredoka;
+  font-weight: semibold;
+  src: url("file:///android_res/font/fredoka.ttf");
+}
+body{
+    background-color: #040458;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+.image1{
+    display:flex;
+flex-shrink: 1;
+width: 100%;
+height: auto;
+z-index: 1;
+justify-content: center;
+align-items: center;
+margin-top: 2%;
+position: relative;
+z-index: 2;
+}
+.image2{
+    display: flex;
+    flex-shrink: 0;
+    position:relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.image2 img{
+    display: block;
+    width: 35%;
+    height: auto;
+}
+.container{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: fredoka;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+input::placeholder{
+    color: white;
+    font-family: fredoka;
+    font-weight: 500;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin: 10%;*/
+}
+.user{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pwd{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.user img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+.pwd img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+.user input{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-bottom: 2px solid white;
+}
+.pwd input{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-bottom: 3px solid white;
+}
+.parentLogin{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: #040458;
+    font-family: fredoka;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 20% 65%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.login:hover{
+    background-color: rgb(255,255,255,0.5);
+}
+.time{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: fredoka;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

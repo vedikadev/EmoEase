@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive App Page</title>
+    <link rel="stylesheet" href="doc.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inika|Fredoka+One&display=swap">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="Arrow%202.png" class="arrow" onclick="goBack()"/>
+        <button class="btn-me">ME</button>
+    </div>
+
+    <div class="conversation">
+        <div class="message">
+            <img class="icon" src="Doctor_icon_or_avatar_on_white___Download_on_Freepik-removebg-preview%201%20(1).png" alt="User Icon">
+            <p class="text">Hello, how can I help you?</p>
+        </div>
+        <div class="message received">
+            <button class="btn-me icon2">ME</button>
+            <p class="text">I'm looking to talk to someone.</p>
+
+        </div>
+        <!-- More conversation messages can be added here -->
+    </div>
+    <div class="type-bar">
+        <input type="text" placeholder="Type something">
+        <button class="send-button">&#10148;</button>
+    </div>
+</div>
+<script>
+    function goBack() {
+        window. history. back();
+    }
+</script>
+</body>
+</html>

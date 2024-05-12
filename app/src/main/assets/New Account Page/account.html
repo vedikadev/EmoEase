@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Document</title>
+    <link href="account.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="image1">
+    <img src="logoTransparent%202.png"/>
+</div>
+<div class="heading">
+    <img src="Arrow%202.png" class="arrow" onclick="goBack()"/>
+    <h1>New Account</h1>
+    <img src="Group%2015.png"/>
+</div>
+<div class="pfp">
+    <img src="profile.png" class="prof"/>
+    <p class="pfpinfo">Upload a profile picture<br>(optional)</p>
+</div>
+<form id="passwordForm" class="formpass">
+<div class="forms">
+    <div class="pwd">
+        <input type="text" id="name" name="username" placeholder="NAME" class="name" required>
+        <input type="text" id="usename" name="username" placeholder="USERNAME" required>
+    </div>
+    <div class="btn">
+        <p class="note">User already in use</p>
+        <button type="submit" class="nextbtn" onclick="window.location.href='file:///android_asset/Create A Password Page/password.html';">Next</button>
+    </div>
+</div>
+</form>
+
+
+<script>
+    function goBack(){
+        window. history. back();
+    }
+</script>
+</body>
+</html>
